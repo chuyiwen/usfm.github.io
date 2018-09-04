@@ -2,6 +2,8 @@
 
 This repository contains the original source codes used for ECCV2018 publication: [Fast and Accurate Camera Covariance Computation for Large 3D Reconstruction](http://people.ciirc.cvut.cz/~policmic/files/Polic_Fast_and_Accurate_Camera_Covariance.pdf)
 
+Precompiled binaries for Windows, Matlab codes and tested datasets are in available [here](http://people.ciirc.cvut.cz/~policmic/files/eccv2018/supplementary.zip) (~320MB).
+
 I recomend to use the new extended version which will be published soon.
 
 ### External libraries
