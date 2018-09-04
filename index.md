@@ -1,39 +1,34 @@
-## Welcome to GitHub Pages which will be finished until Sep. 10th.
+## Welcome to Uncertainty4SfM Pages
 
-....
+This repository contains the original source codes used for ECCV2018 publication: [Fast and Accurate Camera Covariance Computation for Large 3D Reconstruction](http://people.ciirc.cvut.cz/~policmic/files/Polic_Fast_and_Accurate_Camera_Covariance.pdf)
 
-You can use the [editor on GitHub](https://github.com/michalpolic/usfm.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+I recomend to use the new extended version which will be published soon.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### External libraries
+Requirements: 
+ - Gflags, Eigen, Blas and Lapack, Ceres, Cuda, Magma dense
+Optional:
+ - Glog, Matlab, OpenMVG, SuiteSparse
 
-### Markdown
+### Installation 
+1) Precompile/download required libraries
+2) Build the project using Cmake
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Output
+It can be saved txt file with upper triangles of symmetric covariance matrices, i.e. the values 1-6 for each point covariance matrix 
+-----------
+| 1  2  3 |
+| 2  4  5 |
+| 3  5  6 |
+----------- 
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/michalpolic/usfm.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Known issues
+- The codes work with one to one camera-image corespondences. It does not assume shared intrinsics.
+- It works with PINHOLE, SIMPLE_RADIAL and RADIAL disortion model
+- It didn't compute the uncertainties of points in 3D
+(All the issues are solved now in new version of software which will be published during October 2018.)
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Detailed information may be on my [web page](http://people.ciirc.cvut.cz/~policmic).
+If you have any questions please contact me and I’ll help you sort it out.
