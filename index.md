@@ -21,7 +21,7 @@ The codes can be used to save the covarince matrix as a txt file, called from th
 
 ### Documantation and API
 Will be in the extended version. 
-The executable with "--help" argument print how to use it.
+The executable with "--help" argument prints how to use it.
 
 ### Known issues
 - The codes work with one to one camera-image corespondences. It does not assume shared intrinsics.
