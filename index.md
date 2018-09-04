@@ -16,11 +16,10 @@ Optional:
 
 ### Output
 It can be saved txt file with upper triangles of symmetric covariance matrices, i.e. the values 1-6 for each point covariance matrix 
------------
 | 1  2  3 |
 | 2  4  5 |
 | 3  5  6 |
------------ 
+
 
 ### Known issues
 - The codes work with one to one camera-image corespondences. It does not assume shared intrinsics.
