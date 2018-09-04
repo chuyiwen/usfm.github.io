@@ -4,7 +4,7 @@ This repository contains the original source codes used for ECCV2018 publication
 
 Precompiled binaries for Windows, Matlab codes and tested datasets are in available [here](http://people.ciirc.cvut.cz/~policmic/files/eccv2018/supplementary.zip) (~320MB).
 
-I recomend to use the new extended version which will be published soon.
+I recomend to use the new extended version which will be published during October 2018.
 
 ### External libraries
 Requirements: 
