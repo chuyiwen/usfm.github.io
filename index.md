@@ -15,11 +15,10 @@ Optional:
 2) Build the project using Cmake
 
 ### Output
-It can be saved txt file with upper triangles of symmetric covariance matrices, i.e. the values 1-6 for each point covariance matrix 
-| 1  2  3 |
-| 2  4  5 |
-| 3  5  6 |
+The codes can be used to save the covarince matrix as a txt file, called from the Matlab or called as an external library. The covariance matrices are saved as the upper triangles of symmetric covariance matrices, i.e. the values 1-6 for example matrix [ 1  2  3 ; 2  4  5 ; 3  5  6 ]
 
+### Documantation and API
+Will be extended version.
 
 ### Known issues
 - The codes work with one to one camera-image corespondences. It does not assume shared intrinsics.
